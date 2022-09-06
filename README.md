@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Vevisector.github.io/rsschool-cv/cv
