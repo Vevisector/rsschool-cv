@@ -19,8 +19,8 @@ I start my studing at Grodno State Agrarian University. I have university educat
  * VSCode
  
 ---
- ####  Code example
- 
+####  Code example
+
  It is my first cata what I complete at Codewars.
 ```
 function multiply(a, b){
