@@ -9,7 +9,7 @@
 
 ---
 ####Briefly About My Self:
-I start my studing at Grodno State Agrarian University. I have university education. Then when my studing was over I start working for my veterian major in state enterprise.I have great job and I love animal but I want more.This is a reason why I start study programm languages and English. 
+I start my studing at Grodno State Agrarian University. I have university education. Then when my studing was over I start working for my veterian major in state enterprise.I have great job and I love animal but I want more.This is a reason why I start study programm languages and English.And I realy want stay IT Specialist.
 
 ---
 #### Skills and Profiency
