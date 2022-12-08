@@ -1,0 +1,101 @@
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto',sans-serif;
+  }
+.header,
+.main,
+.footer{
+    border: 1px solid black;; 
+}
+.header,
+.footer{
+    background-color: rgb(37, 84, 28);
+    height:6vh;
+}
+.main{
+    height:88vh;
+}
+/*!Start Header */
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin:0;
+}
+.nav-link{
+    padding: 0 20px;
+    line-height: 50px;
+    color: white;
+    text-decoration: none;  
+    transition:0.5s;
+    position:relative;
+}
+.nav-link:hover{
+    color:black;
+    ;
+}
+.nav-link::before{
+    content:'';
+    width:75%;
+    height: 1px;
+    background-color: black;
+    position:absolute;
+    bottom: -2px;right:10px;
+    transform: scale(0);
+}
+.nav-link:hover::before{
+    transform:scaleX(1);
+    transition:0.25s;
+}
+/*!End Header */
+/*!Start main */
+.head-main{
+    display: flex;
+    justify-content: center;
+}
+.my-img,
+.profile{
+    width:50%;
+    
+}
+.container-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section{
+    width:50%
+}
+
+.img{
+    width:40%;
+    border-radius:60px;
+}
+/*!End main */
+/*!Start Footer */
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.my-git,
+.my-logo{
+    width:50%;
+}
+.my-git{
+    padding: 12px 0 0 0;
+}
+.my-logo{
+    padding: 5px 0 0 0;
+    width:25%
+}
+/*!End Footer */
