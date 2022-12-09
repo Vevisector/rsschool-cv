@@ -1,5 +1,4 @@
-
-@media (max-width: 768px) {
+@media (max-width: 768px){
     .section {
       width: 100%;
     }
@@ -11,22 +10,29 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-size:20px;
     font-family: 'Roboto',sans-serif;
   }
-.header,
-.main,
-.footer{
-    border: 1px solid black;; 
+p,
+pre,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    padding:0;
+    margin:0;
 }
 .header,
 .footer{
-    background-color: rgb(37, 84, 28);
-    height:6vh;
-}
-.main{
-    height:88vh;
-}
+    background-color:dimgrey;
+    height:7vh;
+}   
 /*!Start Header */
+.container-header{
+    height:100%;
+}
 .nav-list{
     list-style: none;
     display: flex;
@@ -44,20 +50,7 @@ body {
 }
 .nav-link:hover{
     color:black;
-    ;
-}
-.nav-link::before{
-    content:'';
-    width:75%;
-    height: 1px;
-    background-color: black;
-    position:absolute;
-    bottom: -2px;right:10px;
-    transform: scale(0);
-}
-.nav-link:hover::before{
-    transform:scaleX(1);
-    transition:0.25s;
+    
 }
 /*!End Header */
 /*!Start main */
@@ -68,36 +61,106 @@ body {
 .my-img,
 .profile{
     width:50%;
-    
 }
 .container-main{
     display: flex;
     flex-wrap: wrap;
+    width:100%;
+    background-color:lightgoldenrodyellow;
 }
 .section{
-    width:50%
+    width:50%;
+    padding:20px 60px 0 40px ;
+    margin: 0 0 40px 0px;
+    height:33vh;
+    text-align:left;
+    position:relative;
 }
+.section::after{
+    content:'';
+    position:absolute;
+    bottom: -30px;
+    width:400px;
+    border:1px solid black;
+}
+.section-profile{
+    width:100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    position:relative;
+    margin-bottom:40px;
+}
+.section-profile::after{
+    content: '';
+    position: absolute;
+    width: 1000px;
+    height:10px;
+    background:repeating-linear-gradient(45deg, black, transparent 100px);
+    border-radius: 10px;
+    bottom:-40px;
+}
+div.profile{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width:30%;
+}
+.profile.h3,
+.profile.h1{
+    width:100%;
+    margin:15px;
 
+}
+.title{
+    color: darkgrey;
+}
 .img{
-    width:40%;
-    border-radius:60px;
+    width: 25%;
+    height:30%;
+    border-radius:50%;
+}
+.contacts-link{
+    text-decoration: none;
+    color:burlywood;
+    transition: 0.5s;
+}
+.contacts-link:hover{
+    color:limegreen;
 }
 /*!End main */
 /*!Start Footer */
 .container-footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-.my-git,
-.my-logo{
-    width:50%;
+.div.logo{
+    text-align: -webkit-right;
+}
+.section.git{
+     height:100%;
+}
+.div.logo,
+.time-place{
+    width:30%;
+    margin:0;
+    padding:0;
+}
+.time-place{
+    display: flex;
+    text-decoration: none;
+    line-height: 50px;
+    color:white;
+}
+.link{
+    padding-left:20px;
 }
 .my-git{
     padding: 12px 0 0 0;
 }
 .my-logo{
     padding: 5px 0 0 0;
-    width:25%
+    width:20%
 }
 /*!End Footer */
 

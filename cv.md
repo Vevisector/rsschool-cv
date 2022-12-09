@@ -9,7 +9,7 @@
 
 ---
 #### Briefly About My Self:
-I start my studing at Grodno State Agrarian University. I have university education. Then when my studing was over I start working for my veterian major in state enterprise.I have great job and I love animal but I want more.This is a reason why I start study programm languages and English.And I realy want stay IT Specialist.
+I start my studying at Grodno State Agrarian University. I have university education. Then when my study was over I start working for my veterinary major in state enterprise.I have great job and I love animal but I want more.This is a reason why I start study programm languages and English.And I realy want stay IT Specialist.
 
 ---
 #### Skills and Profiency
@@ -31,6 +31,8 @@ function multiply(a, b){
 #### Courses
 * HTML,CSS and Java Script Tutorias on [ru.code](https://ru.code-basics.com/languages)
 
+#### Education
+* Grodno State Agrarian University :Faculty of Veterinary Medicine
 ---
 #### Languges
 * English-Intermediate(according to the online test [efset.org](https://www.efset.org/quick-check/))
