@@ -30,8 +30,12 @@ h6{
     height:7vh;
 }   
 /*!Start Header */
+.container-footer,
+.container-main,
 .container-header{
     height:100%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .nav-list{
     list-style: none;
@@ -154,6 +158,7 @@ div.profile{
 }
 .link{
     padding-left:20px;
+    margin:0;
 }
 .my-git{
     padding: 12px 0 0 0;
